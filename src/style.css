@@ -1,0 +1,65 @@
+.todo {
+  border: 1px solid black;
+  margin: 20px;
+  padding: 0 20px;
+}
+
+i,
+button {
+  cursor: pointer;
+}
+
+/* ************** */
+
+.todoTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.titleP {
+  margin: 10px 0;
+}
+
+/* ************** */
+
+form {
+  display: flex;
+  border-bottom: 1px solid black;
+}
+
+.formInput {
+  border-style: none;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.formInput:focus {
+  outline: none;
+}
+
+/* ************** */
+.todoFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.todoDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.todoDiv > p {
+  margin: 10px 0;
+}
+
+/* ************** */
+.clearAll {
+  width: 100%;
+  padding: 10px 0;
+}
