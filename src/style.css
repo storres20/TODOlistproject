@@ -1,0 +1,81 @@
+.todo {
+  border: none;
+  margin: 20px;
+  width: 50%;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+i,
+button {
+  cursor: pointer;
+}
+
+/* ************** */
+
+.todoTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(218, 218, 218);
+  padding: 0 20px;
+}
+
+.titleP {
+  margin: 10px 0;
+}
+
+/* ************** */
+
+form {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(218, 218, 218);
+  padding: 0 20px;
+}
+
+.formInput {
+  border-style: none;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.formInput:focus {
+  outline: none;
+}
+
+/* ************** */
+.todoFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(218, 218, 218);
+  padding: 0 20px;
+}
+
+.todoDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.todoDiv > p {
+  margin: 10px 0;
+}
+
+/* ************** */
+.clearAll {
+  width: 100%;
+  padding: 10px 0;
+  color: gray;
+  text-align: center;
+  background-color: rgb(218, 218, 218);
+  cursor: pointer;
+}
+
+.clearAll:hover {
+  background-color: rgb(181, 181, 181);
+}
