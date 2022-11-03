@@ -38,15 +38,15 @@ formInput.addEventListener('keypress', (e) => {
   }
 });
 
-let ind;
+let indexTask;
 enter.addEventListener('click', () => {
   if (localStorage.getItem('tasks') === null) {
-    ind = 1;
+    indexTask = 1;
   } else {
-    ind = JSON.parse(localStorage.getItem('tasks')).length + 1;
+    indexTask = JSON.parse(localStorage.getItem('tasks')).length + 1;
   }
 
-  const todo1 = new Task(formInput.value, false, ind, Date.now().toString());
+  const todo1 = new Task(formInput.value, false, indexTask, Date.now().toString());
   addtask(todo1); // add new task
   formInput.value = '';
 });
