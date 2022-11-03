@@ -17,9 +17,6 @@ module.exports = function edittask() {
       });
 
       localStorage.setItem('tasks', JSON.stringify(getedit));
-    } else if (e.target.classList.contains('checkbox')) {
-      /* add line trough when checkbox checked */
-      e.target.parentElement.children[1].classList.toggle('tach');
     }
   });
 };
