@@ -1,7 +1,12 @@
 .todo {
-  border: 1px solid black;
+  border: none;
   margin: 20px;
-  padding: 0 20px;
+  /* padding: 0 20px; */
+  width: 50%;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
 i,
@@ -15,7 +20,8 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgb(218, 218, 218);
+  padding: 0 20px;
 }
 
 .titleP {
@@ -26,7 +32,9 @@ button {
 
 form {
   display: flex;
-  border-bottom: 1px solid black;
+  align-items: center;
+  border-bottom: 1px solid rgb(218, 218, 218);
+  padding: 0 20px;
 }
 
 .formInput {
@@ -45,7 +53,8 @@ form {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgb(218, 218, 218);
+  padding: 0 20px;
 }
 
 .todoDiv {
@@ -62,4 +71,12 @@ form {
 .clearAll {
   width: 100%;
   padding: 10px 0;
+  color: gray;
+  text-align: center;
+  background-color: rgb(218, 218, 218);
+  cursor: pointer;
+}
+
+.clearAll:hover {
+  background-color: rgb(181, 181, 181);
 }
