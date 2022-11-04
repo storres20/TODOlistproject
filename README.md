@@ -11,7 +11,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://storres20.github.io/TODOlistproject/)
+[Live Demo Link](https://storres20.github.io/TODOlistproject/dist/)
 
 ## Getting Started
 
